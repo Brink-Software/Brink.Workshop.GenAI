@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "ms-dotnettools.dotnet-interactive-vscode",
-        "ms-dotnettools.csdevkit"
+        "ms-dotnettools.csdevkit",
+        "bierner.markdown-mermaid"
     ]
 }
