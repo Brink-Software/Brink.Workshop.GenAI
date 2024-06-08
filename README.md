@@ -11,8 +11,10 @@ This repository a workshop designed to help the team explorer the possibilities 
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download)
 - Access to an Azure subscription
 
-![alt text](logo.png)
+
 
 ## Workshops
 
-- [Azure OpenAI](notebooks/Azure Open AI Workshop.ipynb)
+- [Azure OpenAI](/notebooks/Azure%20Open%20AI%20Workshop.ipynb)
+
+![alt text](logo.png)
