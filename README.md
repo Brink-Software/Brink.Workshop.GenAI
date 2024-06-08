@@ -12,3 +12,7 @@ This repository a workshop designed to help the team explorer the possibilities 
 - Access to an Azure subscription
 
 ![alt text](logo.png)
+
+## Workshops
+
+- [Azure OpenAI](notebooks/Azure Open AI Workshop.ipynb)
