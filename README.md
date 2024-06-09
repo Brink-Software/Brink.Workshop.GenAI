@@ -15,6 +15,6 @@ This repository a workshop designed to help the team explorer the possibilities 
 
 ## Workshops
 
-- [Azure OpenAI](/notebooks/Azure%20Open%20AI%20Workshop.ipynb)
+- [Azure OpenAI](/notebooks/AzureOpenAI.ipynb)
 
 ![alt text](logo.png)
