@@ -17,7 +17,7 @@ resource openAIResource 'Microsoft.CognitiveServices/accounts@2023-10-01-preview
 
 resource adaModel 'Microsoft.CognitiveServices/accounts/deployments@2023-10-01-preview' = {
   parent: openAIResource
-  name: 'ada002'
+  name: 'ada-002'
   properties: {
     model: {
       format: 'OpenAI'
@@ -35,7 +35,7 @@ resource adaModel 'Microsoft.CognitiveServices/accounts/deployments@2023-10-01-p
 
 resource chatGptModel 'Microsoft.CognitiveServices/accounts/deployments@2023-10-01-preview' = {
   parent: openAIResource
-  name: 'gtp4o'
+  name: 'gtp-4o'
   dependsOn: [
     adaModel
   ]
@@ -56,7 +56,7 @@ resource chatGptModel 'Microsoft.CognitiveServices/accounts/deployments@2023-10-
 
 resource dalle3 'Microsoft.CognitiveServices/accounts/deployments@2023-10-01-preview' = {
   parent: openAIResource
-  name: 'dalle3'
+  name: 'dall-e-3'
   dependsOn: [
     chatGptModel
   ]
