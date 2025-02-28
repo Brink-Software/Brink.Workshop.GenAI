@@ -42,9 +42,9 @@ RUN apt-get update \
         libgdiplus \
     && rm -rf /var/lib/apt/lists/*
 
-ENV DOTNET_SDK_VERSION 8.0.101
+ENV DOTNET_SDK_VERSION 9.0.200
 # Install .NET Core SDK
-RUN dotnet_sdk_version=8.0.101 \
+RUN dotnet_sdk_version=9.0.200 \
     && curl -SL --output dotnet.tar.gz https://dotnetcli.azureedge.net/dotnet/Sdk/$dotnet_sdk_version/dotnet-sdk-$dotnet_sdk_version-linux-x64.tar.gz \
     && dotnet_sha512='26df0151a3a59c4403b52ba0f0df61eaa904110d897be604f19dcaa27d50860c82296733329cb4a3cf20a2c2e518e8f5d5f36dfb7931bf714a45e46b11487c9a' \
     && echo "$dotnet_sha512 dotnet.tar.gz" | sha512sum -c - \
