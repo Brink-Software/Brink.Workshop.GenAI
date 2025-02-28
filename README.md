@@ -8,7 +8,7 @@ This repository hosts workshops designed to help participants explorer the possi
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - The [Polyglot Notebook extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode) for Visual Studio Code
-- [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download)
+- [.NET 9.0 SDK](https://dotnet.microsoft.com/en-us/download)
 - Access to an Azure subscription
 
 ## Workshops
